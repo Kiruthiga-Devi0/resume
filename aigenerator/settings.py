@@ -57,7 +57,7 @@ ROOT_URLCONF = 'aigenerator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/"resume"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

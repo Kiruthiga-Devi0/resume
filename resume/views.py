@@ -15,7 +15,7 @@ from .models import Resume5
 from .models import JobRole,UserPreference
 
 def landing_page(request):
-    return render(request, 'resume/index.html')
+    return render(request, 'index.html')
 def front_page(request):
     return render(request, 'resume/home.html')
 def resume_form(request):
